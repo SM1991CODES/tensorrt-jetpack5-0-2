@@ -106,13 +106,13 @@ new_local_repository(
 
 new_local_repository(
    name = "libtorch",
-   path = "/home/vrs/.local/lib/python3.8/dist-packages/torch",
+   path = "/usr/local/lib/python3.8/dist-packages/torch",
    build_file = "third_party/libtorch/BUILD"
 )
 
 new_local_repository(
    name = "libtorch_pre_cxx11_abi",
-   path = "/home/vrs/.local/lib/python3.8/dist-packages/torch",
+   path = "/usr/local/lib/python3.8/dist-packages/torch",
    build_file = "third_party/libtorch/BUILD"
 )
 
